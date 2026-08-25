@@ -289,16 +289,16 @@
             <version>1.23.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk18on</artifactId>
-            <version>1.85</version>
-        </dependency>
-        <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcpkix-jdk18on</artifactId>
-            <version>1.85</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.bouncycastle</groupId>-->
+<!--            <artifactId>bcprov-jdk18on</artifactId>-->
+<!--            <version>1.85</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.bouncycastle</groupId>-->
+<!--            <artifactId>bcpkix-jdk18on</artifactId>-->
+<!--            <version>1.85</version>-->
+<!--        </dependency>-->
 
 
         <dependency>
@@ -364,13 +364,13 @@
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcpkix-jdk18on</artifactId>
-            <version>1.84</version>
+            <version>1.85</version>
         </dependency>
 
         <dependency>
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
-            <version>2.0.2</version>
+            <version>3.1-jenkins-1</version>
         </dependency>
 
 
