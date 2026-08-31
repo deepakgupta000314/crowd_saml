@@ -41,7 +41,6 @@
     </dependencyManagement>
 
     <dependencies>
-
         <dependency>
             <groupId>com.atlassian.crowd</groupId>
             <artifactId>crowd-server</artifactId>
@@ -137,6 +136,7 @@
             <scope>test</scope>
             <version>4.13.2</version>
         </dependency>
+
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-core</artifactId>
@@ -150,13 +150,13 @@
             <version>6.0.0</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>jakarta.annotation</groupId>
             <artifactId>jakarta.annotation-api</artifactId>
             <version>2.1.1</version>
             <scope>provided</scope>
         </dependency>
-
 
         <dependency>
             <groupId>jakarta.inject</groupId>
@@ -171,13 +171,6 @@
             <version>3.0.1</version>
             <scope>provided</scope>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>com.atlassian.plugins</groupId>-->
-        <!--            <artifactId>atlassian-plugins-servlet</artifactId>-->
-        <!--            <version>9.0.0-jakarta-m001</version>-->
-        <!--            <scope>provided</scope>-->
-        <!--        </dependency>-->
-
 
         <!-- OSGi Java Config dependencies -->
         <dependency>
@@ -193,6 +186,7 @@
             <version>${spring.version}</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
@@ -214,25 +208,20 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- WIRED TEST RUNNER DEPENDENCIES -->
-        <!--        <dependency>-->
-        <!--            <groupId>com.atlassian.plugins</groupId>-->
-        <!--            <artifactId>atlassian-plugins-osgi-testrunner</artifactId>-->
-        <!--            <version>${plugin.testrunner.version}</version>-->
-        <!--            <scope>test</scope>-->
-        <!--        </dependency>-->
         <dependency>
             <groupId>jakarta.ws.rs</groupId>
             <artifactId>jakarta.ws.rs-api</artifactId>
             <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.11.0</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -283,18 +272,6 @@
             </exclusions>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.bouncycastle</groupId>-->
-<!--            <artifactId>bcprov-jdk18on</artifactId>-->
-<!--            <version>1.85</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.bouncycastle</groupId>-->
-<!--            <artifactId>bcpkix-jdk18on</artifactId>-->
-<!--            <version>1.85</version>-->
-<!--        </dependency>-->
-
-
         <dependency>
             <groupId>org.opensaml</groupId>
             <artifactId>opensaml-saml-api</artifactId>
@@ -323,6 +300,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <dependency>
             <groupId>org.opensaml</groupId>
             <artifactId>opensaml-saml-impl</artifactId>
@@ -355,37 +333,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcpkix-jdk18on</artifactId>
             <version>1.85</version>
         </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>commons-httpclient</groupId>-->
-<!--            <artifactId>commons-httpclient</artifactId>-->
-<!--            <version>3.1-jenkins-1</version>-->
-<!--        </dependency>-->
-
-
-        <!--        <dependency>-->
-        <!--            <groupId>org.opensaml</groupId>-->
-        <!--            <artifactId>opensaml-saml-api</artifactId>-->
-        <!--                        <version>5.0.0</version>-->
-        <!--            <scope>provided</scope>-->
-        <!--        </dependency>-->
-
-        <!--        <dependency>-->
-        <!--            <groupId>org.apache.commons</groupId>-->
-        <!--            <artifactId>commons-fileupload2-jakarta-servlet6</artifactId>-->
-        <!--            <version>2.0.0-M4</version>-->
-        <!--        </dependency>-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.apache.commons</groupId>-->
-        <!--            <artifactId>commons-fileupload2-core</artifactId>-->
-        <!--            <version>2.0.0-M4</version>-->
-        <!--        </dependency>-->
-
 
         <dependency>
             <groupId>org.opensaml</groupId>
@@ -464,6 +417,7 @@
             <artifactId>org.apache.servicemix.bundles.not-yet-commons-ssl</artifactId>
             <version>0.3.11_1</version>
         </dependency>
+
         <dependency>
             <groupId>xerces</groupId>
             <artifactId>xercesImpl</artifactId>
@@ -475,6 +429,7 @@
             <artifactId>xml-resolver</artifactId>
             <version>1.2</version>
         </dependency>
+
         <dependency>
             <groupId>xml-apis</groupId>
             <artifactId>xml-apis</artifactId>
@@ -488,14 +443,13 @@
             <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>com.atlassian.plugin</groupId>
             <artifactId>atlassian-spring-scanner-annotation</artifactId>
             <version>${atlassian.spring.scanner.version}</version>
             <scope>provided</scope>
         </dependency>
-
-
     </dependencies>
 
     <build>
@@ -609,7 +563,7 @@
         <crowd.version>7.0.0-EAP06</crowd.version>
         <crowd.data.version>7.0.0-EAP06</crowd.data.version>
         <amps.version>9.2.5</amps.version>
-        <!--        <plugin.testrunner.version>2.0.2</plugin.testrunner.version>-->
+        <!--<plugin.testrunner.version>2.0.2</plugin.testrunner.version>-->
         <atlassian.spring.scanner.version>1.2.13</atlassian.spring.scanner.version>
         <osgi.javaconfig.version>0.6.0</osgi.javaconfig.version>
         <spring.version>7.1.0-M1</spring.version>
